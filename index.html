@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2024级中药学4班班级空间，二次元猫娘视觉小说风格的 GitHub Pages 主页。">
+  <title>2024级中药学4班 | 猫娘班级空间</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orb orb-a" aria-hidden="true"></div>
+  <div class="bg-orb orb-b" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header class="hud frame">
+      <a class="brand" href="#top">
+        <span class="brand-badge">04</span>
+        <span class="brand-copy">
+          <strong>2024级中药学4班</strong>
+          <small>Neko Herbology Archive</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="站点导航">
+        <a href="#about">班级设定</a>
+        <a href="#schedule">课程主线</a>
+        <a href="#moments">活动剧照</a>
+        <a href="#wall">喵语留言</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero frame reveal" id="top">
+        <div class="hero-copy">
+          <p class="kicker">Neko Herbology Classroom</p>
+          <h1>2024级中药学4班</h1>
+          <p class="subline">猫娘视觉小说风 · 班级主页 · GitHub Pages 直出</p>
+          <p class="lead">
+            这次直接按二次元游戏主界面的语言来做，不走幼态简笔画路线。
+            视觉核心是深李子色猫耳发型、奶油粉面板、薄荷高光、铃铛金点缀，
+            让班级空间更像“角色主页 + 班级档案馆”。
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">进入班级空间</a>
+            <button class="button button-secondary" type="button" data-scroll="#schedule">查看课程主线</button>
+            <button class="button button-secondary" type="button" id="voiceNext">切换喵语</button>
+          </div>
+
+          <div class="hero-banner">
+            <span class="hero-banner-label">班级台词</span>
+            <strong>本草入梦，少年有光，今天也要带着猫耳冲进课堂。</strong>
+          </div>
+
+          <div class="status-grid">
+            <article class="status-card">
+              <span>风格定位</span>
+              <strong>视觉小说 / 萌系游戏 UI</strong>
+            </article>
+            <article class="status-card">
+              <span>空间用途</span>
+              <strong>公告、课表、活动、纪念</strong>
+            </article>
+            <article class="status-card">
+              <span>部署方式</span>
+              <strong>纯静态，GitHub Pages 即开即用</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <div class="character-card" id="characterCard">
+            <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+            <span class="sticker sticker-a">NEKO MODE</span>
+            <span class="sticker sticker-b">CLASS 04</span>
+            <div class="card-topline">
+              <span>Catgirl Mascot</span>
+              <span>Visual Archive</span>
+            </div>
+
+            <div class="character-visual">
+              <div class="character-glow" aria-hidden="true"></div>
+              <img
+                class="character-portrait"
+                src="OIP.webp"
+                alt="二次元猫娘风格插画"
+                loading="eager"
+              >
+            </div>
+
+            <div class="voice-box">
+              <span class="voice-title">值日播报</span>
+              <p id="speechBubble">欢迎来到 2024级中药学4班，今天的猫娘主页已经进入营业状态。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-grid" id="about">
+        <article class="panel dossier reveal">
+          <div class="panel-head">
+            <p class="kicker">Class Dossier</p>
+            <h2>班级设定档案</h2>
+          </div>
+          <p class="panel-intro">
+            这块不做普通公告栏，而是做成“角色档案页”的感觉。你后续可以把这里直接替换成真实班级介绍、
+            班委资料、班级口号、班规摘要，结构已经留好了。
+          </p>
+
+          <div class="dossier-grid">
+            <article class="mini-panel">
+              <span class="mini-tag">世界观</span>
+              <h3>药香学院中的猫耳班级</h3>
+              <p>把中药学专业感和二次元可爱气质叠在一起，页面观感更像萌系游戏设定集。</p>
+            </article>
+            <article class="mini-panel">
+              <span class="mini-tag">班级关键字</span>
+              <h3>本草 · 铃铛 · 星糖</h3>
+              <p>颜色和装饰围绕草本、粉糖、铃铛、发饰、闪片这些关键词来统一视觉语言。</p>
+            </article>
+            <article class="mini-panel">
+              <span class="mini-tag">班委看板</span>
+              <h3>适合替换真实信息</h3>
+              <p>班长、学习委员、宣传委员、团支书等内容可以直接放进现成卡片，不用再改布局。</p>
+            </article>
+            <article class="mini-panel">
+              <span class="mini-tag">部署说明</span>
+              <h3>纯静态页面</h3>
+              <p>不需要构建工具，不需要框架。你把文件推到仓库根目录，GitHub Pages 就能直接托管。</p>
+            </article>
+          </div>
+        </article>
+
+        <div class="side-stack">
+          <article class="panel note-panel reveal">
+            <div class="panel-head">
+              <p class="kicker">Notice Board</p>
+              <h2>本周公告</h2>
+            </div>
+            <ul class="notice-list">
+              <li>周三晚班会：确认春季活动分工和展示名单。</li>
+              <li>药用植物学实践：记得带观察本、采样袋和拍照设备。</li>
+              <li>课程展示周：提前把小组 PPT 和讲稿备份到班级群。</li>
+            </ul>
+          </article>
+
+          <article class="panel quest-panel reveal">
+            <div class="panel-head">
+              <p class="kicker">Quest Log</p>
+              <h2>任务看板</h2>
+            </div>
+            <div class="quest-list">
+              <div class="quest-item">
+                <span class="quest-mark"></span>
+                <div>
+                  <strong>整理课堂笔记</strong>
+                  <p>适合在晚自习后统一上传到班级网盘。</p>
+                </div>
+              </div>
+              <div class="quest-item">
+                <span class="quest-mark"></span>
+                <div>
+                  <strong>更新活动照片</strong>
+                  <p>把相册区背景图替换成你们真实的班级照片。</p>
+                </div>
+              </div>
+              <div class="quest-item">
+                <span class="quest-mark"></span>
+                <div>
+                  <strong>同步考试提醒</strong>
+                  <p>把测验时间和作业截止日放进公告卡片即可。</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel schedule-panel reveal" id="schedule">
+        <div class="panel-head panel-head-wide">
+          <div>
+            <p class="kicker">Course Route</p>
+            <h2>课程主线</h2>
+          </div>
+          <p class="panel-side-note">比普通课表更像游戏里的章节流程，信息轻一点，视觉更有氛围。</p>
+        </div>
+
+        <div class="day-switcher" role="tablist" aria-label="课表切换">
+          <button class="day-chip active" type="button" data-day-target="mon" aria-selected="true">周一</button>
+          <button class="day-chip" type="button" data-day-target="tue" aria-selected="false">周二</button>
+          <button class="day-chip" type="button" data-day-target="wed" aria-selected="false">周三</button>
+          <button class="day-chip" type="button" data-day-target="thu" aria-selected="false">周四</button>
+          <button class="day-chip" type="button" data-day-target="fri" aria-selected="false">周五</button>
+        </div>
+
+        <div class="timeline-wrap">
+          <article class="timeline active" data-day-panel="mon">
+            <div class="timeline-card">
+              <span class="timeline-time">08:10</span>
+              <div>
+                <h3>中药鉴定学</h3>
+                <p>本草楼 203 · 标本观察与辨识要点整理</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">10:00</span>
+              <div>
+                <h3>无机化学基础</h3>
+                <p>实验楼 A105 · 实验服、记录表、注意操作规范</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">15:20</span>
+              <div>
+                <h3>班级自习</h3>
+                <p>图书馆 3F · 复盘课堂内容，整理周内作业</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline" data-day-panel="tue">
+            <div class="timeline-card">
+              <span class="timeline-time">08:10</span>
+              <div>
+                <h3>药用植物学</h3>
+                <p>教学楼 410 · 叶脉识别与植物观察记录</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">13:40</span>
+              <div>
+                <h3>中医基础理论</h3>
+                <p>本草楼 112 · 阴阳五行与脏腑辨析</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">19:00</span>
+              <div>
+                <h3>小组讨论</h3>
+                <p>线上会议 · 汇总展示资料和发言顺序</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline" data-day-panel="wed">
+            <div class="timeline-card">
+              <span class="timeline-time">09:50</span>
+              <div>
+                <h3>方剂学导论</h3>
+                <p>本草楼 305 · 常见方剂思路梳理</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">14:30</span>
+              <div>
+                <h3>药事管理</h3>
+                <p>教学楼 216 · 法规重点与课堂速记</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">19:10</span>
+              <div>
+                <h3>晚间班会</h3>
+                <p>班级活动室 · 周报总结与任务分配</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline" data-day-panel="thu">
+            <div class="timeline-card">
+              <span class="timeline-time">08:10</span>
+              <div>
+                <h3>中药化学</h3>
+                <p>实验楼 B208 · 成分提取与性质分析</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">13:40</span>
+              <div>
+                <h3>大学英语</h3>
+                <p>教学楼 508 · 专业词汇与口语练习</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">16:00</span>
+              <div>
+                <h3>实践记录整理</h3>
+                <p>自习室 · 上传照片、笔记与小组资料</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline" data-day-panel="fri">
+            <div class="timeline-card">
+              <span class="timeline-time">08:10</span>
+              <div>
+                <h3>体育课</h3>
+                <p>操场集合 · 课后记得补水和拉伸</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">10:00</span>
+              <div>
+                <h3>形势与政策</h3>
+                <p>礼堂二层 · 做好课堂签到</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <span class="timeline-time">15:20</span>
+              <div>
+                <h3>周末清单整理</h3>
+                <p>班级群内同步下周作业与活动安排</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="media-grid" id="moments">
+        <article class="panel gallery-panel reveal">
+          <div class="panel-head">
+            <p class="kicker">Scene Memory</p>
+            <h2>活动剧照</h2>
+          </div>
+          <div class="polaroid-row">
+            <figure class="polaroid polaroid-a">
+              <div class="polaroid-photo"></div>
+              <figcaption>草药标本日</figcaption>
+            </figure>
+            <figure class="polaroid polaroid-b">
+              <div class="polaroid-photo"></div>
+              <figcaption>班会夜谈会</figcaption>
+            </figure>
+            <figure class="polaroid polaroid-c">
+              <div class="polaroid-photo"></div>
+              <figcaption>课堂午后光</figcaption>
+            </figure>
+          </div>
+          <p class="gallery-tip">现在是风格化占位，后续把照片替换进去就会明显更像真实班级空间。</p>
+        </article>
+
+        <article class="panel wall-panel reveal" id="wall">
+          <div class="panel-head">
+            <p class="kicker">Voice Board</p>
+            <h2>喵语留言</h2>
+          </div>
+          <div class="motto-box">
+            <span class="mini-tag">本周语录</span>
+            <h3 id="mottoText">认真上课，温柔生活，努力做一只懂本草的小猫。</h3>
+            <p id="mottoMeta">值日提醒：实验课前检查实验服、记录册与分组名单。</p>
+            <div class="motto-actions">
+              <button class="button button-secondary" id="mottoPrev" type="button">上一条</button>
+              <button class="button button-primary" id="mottoNext" type="button">下一条</button>
+            </div>
+          </div>
+
+          <div class="quote-cloud">
+            <article class="quote-chip">“把认真留给专业，把可爱留给青春。”</article>
+            <article class="quote-chip">“今天的课堂笔记，会变成未来行医治学的底气。”</article>
+            <article class="quote-chip">“就算课很多，也要一起稳稳地向前走。”</article>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer frame">
+      <div>
+        <strong>2024级中药学4班</strong>
+        <p>二次元猫娘风班级空间 · GitHub Pages Ready</p>
+      </div>
+      <a class="footer-link" href="#top">回到顶部</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
